@@ -1,9 +1,11 @@
-
+import { Banner } from "@/component/Banner";
+import { Navbar } from "@/component/Navbar";
 
 export default function Home() {
   return (
-    <div>
-      hi there
-    </div>
+    <>
+      <Banner />
+      <Navbar />
+    </>
   );
 }
